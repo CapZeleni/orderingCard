@@ -9,14 +9,13 @@ import java.time.format.DateTimeFormatter;
 
 import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
 import static java.time.Duration.ofSeconds;
 
 
-class cardOrder {
+class СardOrder {
     @Test
-    void cardOrderFieldsTest() {
+    void СardOrderFieldsTest() {
         open("http://localhost:9999");
         $("[data-test-id='city'] input").setValue("Калуга");
 
